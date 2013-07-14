@@ -1,16 +1,17 @@
 ## Task 1
-minutes_in_week = ...
+minutes_in_week = 7 * 24 * 60
 
 ## Task 2
-remainder_without_mod = ...
+remainder_without_mod = 2304811 - (2304811//47)*47
 
 ## Task 3
-divisible_by_3 = ...
+divisible_by_3 = ((673+909)%3 == 0)
 
 ## Task 4
 x = -9
 y = 1/2
-statement_val = ...
+statement_val = 2**(y+1/2) if x+10<0 else 2**(y-1/2)
+
 
 ## Task 5
 first_five_squares = { ... for _ in {1,2,3,4,5} }
