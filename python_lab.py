@@ -14,28 +14,28 @@ statement_val = 2**(y+1/2) if x+10<0 else 2**(y-1/2)
 
 
 ## Task 5
-first_five_squares = { ... for _ in {1,2,3,4,5} }
+first_five_squares = { _ * _  for _ in {1,2,3,4,5} }
 
 ## Task 6
-first_five_pows_two = { ... for _ in {0,1,2,3,4} }
+first_five_pows_two = { pow(2,_ ) for _ in {0,1,2,3,4} }
 
 ## Task 7: enter in the two new sets
-X1 = { ..., ..., ... }
-Y1 = { ..., ..., ... }
+X1 = { 1,3,5 }
+Y1 = { 2,3,4 }
 
 ## Task 8: enter in the two new sets
-X2 = { ..., ..., ... }
-Y2 = { ..., ..., ... }
+X2 = { 0,2,4 }
+Y2 = { 3,6,12 }
 
 ## Task 9
 base = 10
 digits = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9}
-three_digits_set = { ... }
+three_digits_set = three_digit = {a*base**2 + b*base**1+c*base**0 for a in digits for b in digits for c in digits }
 
 ## Task 10
 S = {1, 2, 3, 4}
 T = {3, 4, 5, 6}
-S_intersect_T = { ... }
+S_intersect_T = { c for c in S if c in T }
 
 ## Task 11
 L_average = ... # average of: [20, 10, 15, 75]
